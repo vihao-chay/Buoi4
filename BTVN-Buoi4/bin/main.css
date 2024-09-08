@@ -1,0 +1,36 @@
+.header{
+    display:flex;
+}
+
+.header-content{
+    width: 48%;
+    flex:1;
+    text-align: left;
+    border: 1px solid black;
+    background-color: #F4F4F4;
+    border: none;
+}
+.header-content>h2{
+    text-align: right;
+    margin-top: 50px;
+    font-weight: bold;
+
+}
+.header-content>p{
+    margin-left: 4%;
+}
+.header-image{
+    width: 48%;
+    flex:1;
+    text-align: left;
+}
+.content{
+    display: flex;
+}
+.content-best-seller{
+    width: 48%;
+
+}
+.content-sale-off{
+    width:48%;
+}
